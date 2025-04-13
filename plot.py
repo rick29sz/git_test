@@ -10,7 +10,6 @@ def plot_losses(train_losses, name='', path=''):
             label='Training Loss', 
             color='royalblue', 
             linewidth=2,
-            # marker='o',
             markersize=8,
             markerfacecolor='red')
 
