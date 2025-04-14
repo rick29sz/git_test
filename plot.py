@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+#  1111111111111111
 def plot_losses(train_losses, name='', path=''):
     # 创建绘图
     plt.figure(figsize=(12, 7))
@@ -28,4 +28,4 @@ def plot_losses(train_losses, name='', path=''):
 
 # torchrun --nproc_per_node 2 1-pretrain.py
 if __name__ == "__main__":
-    plot_losses([1,2,3,5,6])
+    plot_losses([1,2,3,5,6,-1])
